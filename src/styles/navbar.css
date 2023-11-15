@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #140909;
+}
+
+.nav_box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.my_shop {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+.my_shop a:hover{
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  display: inline;
+}
+.my_shop span {
+  padding: 2px;
+}
+
+.searchSpan {
+  padding: 4px 9px;
+  border-radius: 20px;
+}
+
+.searchSpan button{
+  background: transparent;
+  border: none;
+}
+
+.searchSpan button :hover{
+  border: solid;
+  border-color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.searchSpan input {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.cart {
+  cursor: pointer;
+}
+
+i  :hover{ 
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+} 
+
+.cart span:nth-child(1) {
+  font-size: 2rem;
+  color: white;
+}
+.cart span:nth-child(2) {
+  padding: 0 3px;
+  background-color: red;
+  color: white;
+  font-weight: bolx;
+  border-radius: 5px;
+  position: relative;
+  top: -15px;
+}
